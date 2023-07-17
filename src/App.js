@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Topbar from './components/Topbar';
 import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Causes from './pages/Causes.jsx';
+
 
 
 const App = () => {
@@ -14,6 +17,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/causes" element={<Causes />} />
+
           
         </Routes>
       
