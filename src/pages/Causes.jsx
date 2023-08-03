@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Grid, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const Causes = () => {
   const imageStyle = {
@@ -42,9 +43,11 @@ const Causes = () => {
           <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
             <img src="Africa.png" alt="Causes" width="50%" height="50%" />
           </div>
+          <Link to="/donations"> {/* Replace "/donate-warm-meal" with your desired link */}
             <Button variant="contained" style={buttonStyle}>
-              Button 1
+              Donate 
             </Button>
+          </Link>  
           </div>
         </Grid>
         <Grid item>
@@ -56,9 +59,11 @@ const Causes = () => {
           <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
             <img src="Ukraine.png" alt="Causes" width="50%" height="50%" />
           </div>
+          <Link to="/donations"> {/* Replace "/donate-warm-meal" with your desired link */}
             <Button variant="contained" style={buttonStyle}>
-              Button 2
+              Donate
             </Button>
+           </Link> 
           </div>
         </Grid>
         <Grid item>
@@ -70,10 +75,11 @@ const Causes = () => {
           <div style={{ textAlign: 'topleft', marginTop: '50px' }}>
             <img src="Africa.png" alt="Causes" width="50%" height="50%" />
           </div>
-          
+          <Link to="/volunteers"> {/* Replace "/donate-warm-meal" with your desired link */}
             <Button variant="contained" style={buttonStyle}>
-              Button 3
+              Volunteer
             </Button>
+          </Link>  
           </div>
         </Grid>
 
@@ -87,9 +93,11 @@ const Causes = () => {
           <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
             <img src="Worldwide.png" alt="Causes" width="50%" height="50%" />
           </div>
+          <Link to="/donations"> {/* Replace "/donate-warm-meal" with your desired link */}
             <Button variant="contained" style={buttonStyle}>
-              Button 4
+              Donate
             </Button>
+          </Link>  
           </div>
         </Grid>
         <Grid item>
@@ -101,9 +109,11 @@ const Causes = () => {
           <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
             <img src="World wide.png" alt="Causes" width="50%" height="50%" />
           </div>
+          <Link to="/about"> {/* Replace "/donate-warm-meal" with your desired link */}
             <Button variant="contained" style={buttonStyle}>
-              Button 5
+              Learn more
             </Button>
+           </Link> 
           </div>
         </Grid>
         <Grid item>
@@ -116,9 +126,11 @@ const Causes = () => {
           <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
             <img src="home less.png" alt="Causes" width="50%" height="50%" />
           </div>
+          <Link to="/donations"> {/* Replace "/donate-warm-meal" with your desired link */}
             <Button variant="contained" style={buttonStyle}>
-              Button 6
+              Donate
             </Button>
+           </Link> 
           </div>
         </Grid>
       </Grid>

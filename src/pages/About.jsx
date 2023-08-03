@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, CardContent, Typography, CardMedia, Grid, Button } from '@mui/material';
+import { Card, CardContent, Typography, CardMedia, Grid } from '@mui/material';
 
 const About = () => {
   const imageStyle = {
-    width: '20vw',
+    width: '25vw',
     height: '65vh',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -14,14 +14,7 @@ const About = () => {
   
 
   
-  const buttonStyle = {
-    position: 'absolute',
-    bottom: '10px',
-    left: '50%',
-    transform: 'translateX(-50%)',
-    backgroundColor: '#efca08',
-    
-  };
+  
   return (
     <div>
 
@@ -56,46 +49,31 @@ const About = () => {
       <img src="OUR MVP.png" alt="About" width="70%" height="50%"/>
       <Grid container justifyContent="center" spacing={2}>
         <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("Rectangle6.png")' }}>
+          <div style={{ ...imageStyle, backgroundImage: 'url("green.png")' }}>
             
           <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Hun ger.png" alt="Hunger" width="50%" height="50%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
-            <img src="Africa.png" alt="Causes" width="50%" height="50%" />
-          </div>
-            <Button variant="contained" style={buttonStyle}>
-              Button 1
-            </Button>
-          </div>
-        </Grid>
-        <Grid item>
-          <div style={{...imageStyle,backgroundImage: 'url("Rectangle7.png")' }}>
-            
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Shelter refugees.png" alt="Shelter refugees" width="90%" height="90%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
-            <img src="Ukraine.png" alt="Causes" width="50%" height="50%" />
-          </div>
-            <Button variant="contained" style={buttonStyle}>
-              Button 2
-            </Button>
-          </div>
-        </Grid>
-        <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("Rectangle8.png")' }}>
-            
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Edu cate.png" alt="Educate" width="50%" height="50%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '50px' }}>
-            <img src="Africa.png" alt="Causes" width="50%" height="50%" />
+            <img src="Pas sion (1).png" alt="Hunger" width="65%" height="65%" />
           </div>
           
-            <Button variant="contained" style={buttonStyle}>
-              Button 3
-            </Button>
+            
+          </div>
+        </Grid>
+        <Grid item>
+          <div style={{...imageStyle,backgroundImage: 'url("mission puzzle1.png")' }}>
+            
+          
+            
+          </div>
+        </Grid>
+        <Grid item>
+          <div style={{ ...imageStyle, backgroundImage: 'url("hands1.png")' }}>
+            
+          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
+            <img src="Vis ion (1).png" alt="Educate" width="50%" height="50%" />
+          </div>
+          
+          
+            
           </div>
         </Grid>
         
@@ -127,62 +105,51 @@ const About = () => {
       </div>
       <Grid container justifyContent="center" spacing={2}>
         <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("Rectangle6.png")' }}>
-            
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Hun ger.png" alt="Hunger" width="50%" height="50%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
-            <img src="Africa.png" alt="Causes" width="50%" height="50%" />
-          </div>
-            <Button variant="contained" style={buttonStyle}>
-              Button 1
-            </Button>
-          </div>
+        <div style={{ ...imageStyle, backgroundImage: 'url("janedoe1.png")', position: 'relative' }}>
+  <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginBottom: '35px', marginLeft: '35px' }}>
+    <Typography variant="h3">Jane Doe</Typography>
+    </div>
+    <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginTop: '20px', marginLeft: '75px', color: '#efca08' }}>
+      <Typography variant="h4">CFO</Typography>
+    </div>
+  </div>
         </Grid>
         <Grid item>
-          <div style={{...imageStyle,backgroundImage: 'url("Rectangle7.png")' }}>
+        <div style={{ ...imageStyle, backgroundImage: 'url("janedoe2.png")', position: 'relative' }}>
+  <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginBottom: '35px', marginLeft: '35px' }}>
+    <Typography variant="h3">Jane Doe</Typography>
+    </div>
+    <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginTop: '20px', marginLeft: '75px', color: '#efca08' }}>
+      <Typography variant="h4">CTO</Typography>
+    </div>
+  </div>
             
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Shelter refugees.png" alt="Shelter refugees" width="90%" height="90%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
-            <img src="Ukraine.png" alt="Causes" width="50%" height="50%" />
-          </div>
-            <Button variant="contained" style={buttonStyle}>
-              Button 2
-            </Button>
-          </div>
-        </Grid>
-        <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("Rectangle8.png")' }}>
-            
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Edu cate.png" alt="Educate" width="50%" height="50%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '50px' }}>
-            <img src="Africa.png" alt="Causes" width="50%" height="50%" />
-          </div>
           
-            <Button variant="contained" style={buttonStyle}>
-              Button 3
-            </Button>
+        </Grid>
+        <Grid item>
+        <div style={{ ...imageStyle, backgroundImage: 'url("johndoe1.png")', position: 'relative' }}>
+  <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginBottom: '35px', marginLeft: '35px' }}>
+    <Typography variant="h3">John Doe</Typography>
+    </div>
+    <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginTop: '20px', marginLeft: '35px', color: '#efca08' }}>
+      <Typography variant="h4">Web developer</Typography>
+    </div>
+  
+          
+            
           </div>
         </Grid>
         <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("Rectangle6.png")' }}>
-            
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Hun ger.png" alt="Hunger" width="50%" height="50%" />
-          </div>
-          <div style={{ textAlign: 'topleft', marginTop: '20px' }}>
-            <img src="Africa.png" alt="Causes" width="50%" height="50%" />
-          </div>
-            <Button variant="contained" style={buttonStyle}>
-              Button 1
-            </Button>
-          </div>
-        </Grid>
+  <div style={{ ...imageStyle, backgroundImage: 'url("johndoe2.png")', position: 'relative' }}>
+  <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginBottom: '35px', marginLeft: '35px' }}>
+    <Typography variant="h3">John Doe</Typography>
+    </div>
+    <div style={{ position: 'absolute', bottom: 0, left: 0, textAlign: 'left', marginTop: '20px', marginLeft: '35px', color: '#efca08' }}>
+      <Typography variant="h4">Web designer</Typography>
+    </div>
+  </div>
+</Grid>
+
         </Grid>
       
     </div>
