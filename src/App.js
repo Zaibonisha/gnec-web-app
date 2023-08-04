@@ -3,9 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Topbar from './components/Topbar';
-import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Causes from './pages/Causes.jsx';
+import { Donation, About, Causes, Home } from './pages';
 
 
 
@@ -19,8 +17,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/causes" element={<Causes />} />
-
-          
+          <Route path = "/donations" element={<Donation />} />
         </Routes>
       
     </BrowserRouter>
