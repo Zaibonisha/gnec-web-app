@@ -1,7 +1,10 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Link } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const Topbar = () => {
+
+  const navigate = useNavigate()
   return (
     <AppBar position="static" sx={{ backgroundColor: '#efca08' }}>
       <Toolbar>
@@ -19,7 +22,10 @@ const Topbar = () => {
               About
             </Typography>
           </Link>
-          <Link href="/donations" color="inherit" variant="h5" style={{ margin: '0 10px', textDecoration: 'none' }}>
+          <Link onClick={() => {
+            console.log('click')
+            navigate('/donations')
+          }} color="inherit" variant="h5" style={{ margin: '0 10px', textDecoration: 'none' }}>
             <Typography variant="h5" component="h2" style={{ color: '#10002b' }}>
               Donations
             </Typography>

@@ -1,0 +1,20 @@
+:root {
+    --pink: #F2E9DC;
+    --white: #FFFFFF;
+    --primary: #FFC107;
+    --btn__text: #4c2689
+}
+.text__donation {
+    color: var(--pink);
+}
+.main__container {
+    color: var(--white);    
+}
+.btn__color {
+    color: var(--btn__text) !important;
+    background-color: var(--primary) !important
+}
+
+
+
+
