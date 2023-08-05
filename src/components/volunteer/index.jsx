@@ -4,6 +4,7 @@ import PageTitle from "../common/PageTitle";
 import "../../assets/style/volunteer.css";
 import Cards from "./Cards";
 import JoinUs from "./JoinUs";
+import Form from "./Form";
 
 const Volunteer = () => {
   return (
@@ -15,6 +16,7 @@ const Volunteer = () => {
       />
       <Cards />
       <JoinUs />
+      <Form />
     </>
   );
 };
