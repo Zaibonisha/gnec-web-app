@@ -18,27 +18,27 @@ const About = () => {
   return (
     <div>
 
-      <Grid container spacing={0}>
+<Grid container spacing={0}>
         <Grid item xs={12} sm={6} style={{ width: '50vw'}}>
-          <Card style={{ marginBottom: 0, width: '50vw', height: '100vh',backgroundColor: '#e8dab2' }}>
+          <Card style={{ marginBottom: 0, width: '50vw', height: '110vh',backgroundColor: '#e8dab2' }}>
             <CardContent>
               <Typography variant="h1" component="h2">
-              <img src="ABOUTheading.png" alt="About" width="100%" height="50%"/>
+              <img src="ABOUTheading.png" alt="About" width="100%" height="55%"/>
               </Typography>
               <Typography variant="h4" color="text.secondary">
-              Lorem ipsum sit dolorLorem ipsum sit dolorLorem ipsum sit dolorLorem ipsum sit dolorLorem ipsum sit dolorLorem ipsum sit dolorLorem ipsum sit dolorLorem ipsum sit dolorLorem.
+              The Global NGO Executive Committee (GNEC) is a storied nonprofit that has, for 60 years, partnered with the United Nations to guarantee a voice at the decision-making table for civil society leaders. And that role has never been more critical, as the world battles a global pandemic and a planet-threatening climate crisis, among other challenges. GNEC serves 1,500+ UN-vetted global NGOs, which are on the frontlines of tackling these and others of the most pressing issues of our time. GNEC provides support for these purpose-driven organizations in their efforts to make sure no one on the planet is left behind.
               </Typography>
             </CardContent>
           </Card>
         </Grid>
 
         <Grid item xs={12} sm={6} style={{ marginLeft: '0' }}>
-          <Card style={{ marginBottom: '30px', width: '50vw', height: '100vh' }}>
+          <Card style={{ marginBottom: '30px', width: '50vw', height: '110vh' }}>
             <CardMedia
               component="img"
               alt="Picture"
-              height="100%"
-              width='100%'
+              height="110vh"
+              width='50vw'
               image="about.png"
             />
           </Card>
@@ -49,27 +49,26 @@ const About = () => {
       <img src="OUR MVP.png" alt="About" width="70%" height="50%"/>
       <Grid container justifyContent="center" spacing={2}>
         <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("green.png")' }}>
-            
-          <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Pas sion (1).png" alt="Hunger" width="65%" height="65%" />
+          <div className="image-container" style={{ ...imageStyle, backgroundImage: 'url("green.png")' }}>
+          <h3 className="hidden-text">GNEC serves 1,500+ UN-vetted global NGOs, which are on the frontlines of tackling the most pressing issues of our time. </h3>
+          <div  style={{ textAlign: 'topleft', marginBottom: '20px' }}>
+            <img src="Pas sion (1).png" alt="Passion" width="65%" height="65%" />
           </div>
           
             
           </div>
         </Grid>
         <Grid item>
-          <div style={{...imageStyle,backgroundImage: 'url("mission puzzle1.png")' }}>
-            
-          
-            
-          </div>
+        <div className="image-container" style={{ ...imageStyle, backgroundImage: 'url("mission puzzle1.png")' }}>
+        <h3 className="hidden-text">The Global NGO Executive Committee (GNEC) is a storied nonprofit that has, for 60 years, partnered with the United Nations to guarantee a voice at the decision-making table for civil society leaders. And that role has never been more critical, as the world battles a global pandemic and a planet-threatening climate crisis, among other challenges.</h3>
+        </div>
         </Grid>
+
         <Grid item>
-          <div style={{ ...imageStyle, backgroundImage: 'url("hands1.png")' }}>
-            
+          <div className="image-container" style={{ ...imageStyle, backgroundImage: 'url("hands1.png")' }}>
+          <h3 className="hidden-text">GNEC provides support for these purpose-driven organizations in their efforts to make sure no one on the planet is left behind.</h3>
           <div style={{ textAlign: 'topleft', marginBottom: '20px' }}>
-            <img src="Vis ion (1).png" alt="Educate" width="50%" height="50%" />
+            <img src="Vis ion (1).png" alt="Vision" width="50%" height="50%" />
           </div>
           
           
