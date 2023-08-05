@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import { Box, Typography, Grid, TextField, Button } from "@mui/material";
+import { Box, Typography, Grid, TextField, Button, Link } from "@mui/material";
 import '../pages/styles.css'
 const Footer = () => {
     return (
@@ -73,22 +72,42 @@ const Footer = () => {
                         <Grid container>
                             <Grid item md={4}>
                                 <Typography sx={{color: "#FFC107", fontWeight: '600'}}>For Donators</Typography>
-                                <Typography className="text__white">About us</Typography>
-                                <Typography className="text__white">Donations</Typography>
-                                <Typography className="text__white">Donations</Typography>
-                                <Typography className="text__white">Causes</Typography>
-                                <Typography className="text__white">Contact</Typography>
+                                <Link href="about" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">About us</Typography>
+                                </Link>
+                                <Link href="donations" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Donations</Typography>
+                                </Link>
+                                <Link href="donations" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Donations</Typography>
+                                </Link>
+                                <Link href="causes" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Causes</Typography>
+                                </Link>
+                                <Link href="contacts" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Contact</Typography>
+                                </Link>
                             </Grid>
                             <Grid item md={4}>
                                 <Typography sx={{color: "#FFC107", fontWeight: '600'}}>For Volunteers</Typography>
-                                <Typography className="text__white">About us</Typography>
-                                <Typography className="text__white">Volunteer</Typography>
-                                <Typography className="text__white">Contact</Typography>
+                                <Link href="about" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">About us</Typography>
+                                </Link>
+                                <Link href="volunteers" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Volunteer</Typography>
+                                </Link>
+                                <Link href="contacts" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Contact</Typography>
+                                </Link>
                             </Grid>
                             <Grid item md={4}>
                                 <Typography sx={{color: "#FFC107", fontWeight: '600'}}>For Donations</Typography>
-                                <Typography className="text__white">About us</Typography>
-                                <Typography className="text__white">Contact</Typography>
+                                <Link href="/about" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">About us</Typography>
+                                </Link>
+                                <Link href="contacts" sx={{textDecoration: "none"}}>
+                                    <Typography className="text__white">Contact</Typography>
+                                </Link>
                             </Grid>
                         </Grid>
                     </Box>                
