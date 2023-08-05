@@ -1,8 +1,11 @@
 import React from 'react'
+import HeaderCarousal from '../common/HeaderCarousal'
 
 const Volunteer = () => {
   return (
-    <div>Volunteer</div>
+    <>
+    <HeaderCarousal />
+    </>
   )
 }
 
