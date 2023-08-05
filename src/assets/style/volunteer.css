@@ -59,3 +59,21 @@ textarea::placeholder {
 .card-img-3 {
   background-image: url('../images/volunteer-img-3.png');
 }
+
+.subscribe {
+  margin-top: 20px;
+}
+
+.subscribe input {
+  padding: 12px 21px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.subscribe button {
+  background-color: #ffc107;
+  color: #4c2689;
+  padding: 12px 21px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
