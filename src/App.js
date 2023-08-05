@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Topbar from './components/Topbar';
+import Footer from "./components/Footer"
 import { Donation, About, Causes, Home, Contact } from './pages';
 
 
@@ -20,7 +21,7 @@ const App = () => {
           <Route path = "/donations" element={<Donation />} />
          <Route path = "/contacts" element={<Contact />} /> 
         </Routes>
-      
+        <Footer />
     </BrowserRouter>
   );
 };
