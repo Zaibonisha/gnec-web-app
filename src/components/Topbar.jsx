@@ -41,7 +41,7 @@ const Topbar = () => {
             </Typography>
           </Link>
         </div>
-        <Link href="/contact" color="inherit" variant="h5" style={{ marginLeft: 'auto', textDecoration: 'none' }}>
+        <Link href="/contacts" color="inherit" variant="h5" style={{ marginLeft: 'auto', textDecoration: 'none' }}>
           <Typography variant="h5" component="h2" style={{ color: '#10002b' }}>
             Contact Us
           </Typography>
