@@ -7,7 +7,7 @@ import {
   Grid,
 } from "@mui/material";
 import HeaderCarousal from "../components/common/HeaderCarousal";
-import Footer from '../components/common/Footer';
+
 
 const Card = ({ title, description, image, buttonLabel, buttonLink }) => {
   const buttonStyle = {
