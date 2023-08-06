@@ -56,21 +56,18 @@ To get a local copy up and running follow these simple steps.
  👤 Emilija Per**
  
 - [GitHub]()
-- [LinkedIn]()
-- [Twitter]()
-- [Facebook]()
+- [LinkedIn](https://www.linkedin.com/in/emilija-perchinkova-2173b5126)
+- [Behance](https://www.behance.net/emilijaperchinkova)
  
 👤 Zaibonisha-Mohamed
  
-- [GitHub]()
-- [Twitter]()
-- [LinkedIn]()
+- [GitHub](https://github.com/Zaibonisha)
+- [LinkedIn](https://www.linkedin.com/in/zaibonisha-mohamed-76740b17a/)
 
 👤 Misgana
  
-- [GitHub]()
-- [Twitter]()
-- [LinkedIn]()
+- [GitHub](https://github.com/misgana96)
+- [LinkedIn](https://www.linkedin.com/in/misgana-yoseph-36b42315b/)
 
 👤 **Kingsley Ibe**
  
