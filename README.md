@@ -55,7 +55,7 @@ To get a local copy up and running follow these simple steps.
 
  👤 Emilija Per**
  
-- [GitHub]()
+- [GitHub](https://gitlab.com/EmiliaPerchinkova)
 - [LinkedIn](https://www.linkedin.com/in/emilija-perchinkova-2173b5126)
 - [Behance](https://www.behance.net/emilijaperchinkova)
  
