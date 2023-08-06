@@ -21,7 +21,9 @@ Project Screenshots:
 </table>
  
 Project Repo:
-[View Here](https://github.com/Zaibonisha/gnec-web-app.git)  
+[View Here](https://github.com/Zaibonisha/gnec-web-app.git)
+
+# [Live Demo](https://gnec-ngo.web.app/)
 # Built with
  - React
  - React Router DOM
@@ -68,7 +70,13 @@ To get a local copy up and running follow these simple steps.
  
 - [GitHub]()
 - [Twitter]()
-- [LinkedIn]() 
+- [LinkedIn]()
+
+👤 **Kingsley Ibe**
+ 
+- [KingsleyIbe](https://github.com/KingsleyIbe)
+- [Twitter](https://twitter.com/ibekingsley2)
+- [LinkedIn](https://www.linkedin.com/in/kingsley-ibe/)
 ## 🤝 Contributing
  
 Contributions, issues, and feature requests are welcome!
