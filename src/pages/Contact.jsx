@@ -149,7 +149,8 @@ const Contact = () => {
                     fontWeight: '800',
                     color: '#000'
                 }}
-                >UPLOAD RANDOM GOOGLE MAP IN THIS PLACE</Typography>
+                >Global Presence</Typography>
+                <div> <img src="map-of-world.jpg" alt="map" width="100%" height="55%"/></div>
             </Box>
             <Grid container sx={{padding: '0 20px'}}>
                 <Box sx={{display: 'flex'}}>
